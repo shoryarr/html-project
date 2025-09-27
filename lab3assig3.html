@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Blog of Love</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #fce4ec; /* Light pink background */
+            color: #4a4a4a;
+            margin: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 960px;
+            margin: auto;
+            padding: 2em;
+        }
+        header {
+            text-align: center;
+            padding: 2em 0;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            margin-bottom: 2em;
+        }
+        header h1 {
+            color: #d81b60; /* Deep pink for the title */
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 1em 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 2em;
+        }
+        nav a {
+            text-decoration: none;
+            color: #d81b60;
+            font-weight: bold;
+        }
+        main {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2em;
+        }
+        section {
+            display: flex;
+            flex-direction: column;
+            gap: 2em;
+        }
+        article {
+            background: #fff;
+            padding: 2em;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        article:hover {
+            transform: translateY(-5px);
+        }
+        article h2 {
+            color: #d81b60;
+            font-family: 'Playfair Display', serif;
+        }
+        article p {
+            margin-bottom: 1em;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5em 0;
+            background: #d81b60;
+            color: #fff;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Our Love Story</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Journey</a></li>
+                <li><a href="#">Memories</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section>
+            <article>
+                <h2>The First Hello</h2>
+                <p>It was a day just like any other, but a simple message changed everything. We didn't know it then, but that small spark would grow into a roaring flame. This is where our story truly begins.</p>
+            </article>
+
+            <article>
+                <h2>Adventures Together</h2>
+                <p>From lazy Sunday mornings to spontaneous road trips, every moment has been an adventure. This is a collection of our favorite memories, captured in words and photographs, reminding us of the beautiful path we've walked.</p>
+            </article>
+
+            <article>
+                <h2>A Promise of Forever</h2>
+                <p>Standing on that cliffside, with the sun setting behind us, you asked the question that made my heart leap. This post is a testament to the promises we've made and the future we're building, one day at a time.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 A Blog of Love. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
